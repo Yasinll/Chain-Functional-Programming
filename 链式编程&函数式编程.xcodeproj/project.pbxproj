@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD74BA921FECDDF100D0288E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74BA911FECDDF100D0288E /* Person.m */; };
 		CD93B0E81FECD83900388FFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD93B0E71FECD83900388FFF /* AppDelegate.m */; };
 		CD93B0EB1FECD83900388FFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD93B0EA1FECD83900388FFF /* ViewController.m */; };
 		CD93B0EE1FECD83900388FFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD93B0EC1FECD83900388FFF /* Main.storyboard */; };
 		CD93B0F01FECD83900388FFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD93B0EF1FECD83900388FFF /* Assets.xcassets */; };
 		CD93B0F31FECD83900388FFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD93B0F11FECD83900388FFF /* LaunchScreen.storyboard */; };
 		CD93B0F61FECD83900388FFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD93B0F51FECD83900388FFF /* main.m */; };
+		E9940F0090D08CEAB1607C3B /* libPods-链式编程&函数式编程.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22469D2B10EEA56783E23633 /* libPods-链式编程&函数式编程.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22469D2B10EEA56783E23633 /* libPods-链式编程&函数式编程.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-链式编程&函数式编程.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		890C9FFC3C59DCA07745C5BE /* Pods-链式编程&函数式编程.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-链式编程&函数式编程.debug.xcconfig"; path = "Pods/Target Support Files/Pods-链式编程&函数式编程/Pods-链式编程&函数式编程.debug.xcconfig"; sourceTree = "<group>"; };
+		983B2E85891A0DB591B6322A /* Pods-链式编程&函数式编程.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-链式编程&函数式编程.release.xcconfig"; path = "Pods/Target Support Files/Pods-链式编程&函数式编程/Pods-链式编程&函数式编程.release.xcconfig"; sourceTree = "<group>"; };
+		CD74BA901FECDDF100D0288E /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		CD74BA911FECDDF100D0288E /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		CD93B0E31FECD83800388FFF /* 链式编程&函数式编程.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "链式编程&函数式编程.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD93B0E61FECD83900388FFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD93B0E71FECD83900388FFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -33,17 +40,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9940F0090D08CEAB1607C3B /* libPods-链式编程&函数式编程.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E633AA57FFCFCBBCBF921AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				890C9FFC3C59DCA07745C5BE /* Pods-链式编程&函数式编程.debug.xcconfig */,
+				983B2E85891A0DB591B6322A /* Pods-链式编程&函数式编程.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		60798B83CF676077DF0C4A22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22469D2B10EEA56783E23633 /* libPods-链式编程&函数式编程.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CD93B0DA1FECD83800388FFF = {
 			isa = PBXGroup;
 			children = (
 				CD93B0E51FECD83800388FFF /* 链式编程&函数式编程 */,
 				CD93B0E41FECD83800388FFF /* Products */,
+				0E633AA57FFCFCBBCBF921AB /* Pods */,
+				60798B83CF676077DF0C4A22 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +89,8 @@
 				CD93B0E71FECD83900388FFF /* AppDelegate.m */,
 				CD93B0E91FECD83900388FFF /* ViewController.h */,
 				CD93B0EA1FECD83900388FFF /* ViewController.m */,
+				CD74BA901FECDDF100D0288E /* Person.h */,
+				CD74BA911FECDDF100D0288E /* Person.m */,
 				CD93B0EC1FECD83900388FFF /* Main.storyboard */,
 				CD93B0EF1FECD83900388FFF /* Assets.xcassets */,
 				CD93B0F11FECD83900388FFF /* LaunchScreen.storyboard */,
@@ -78,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD93B0F91FECD83900388FFF /* Build configuration list for PBXNativeTarget "链式编程&函数式编程" */;
 			buildPhases = (
+				C31C6607FCE2C926AAF662E3 /* [CP] Check Pods Manifest.lock */,
 				CD93B0DF1FECD83800388FFF /* Sources */,
 				CD93B0E01FECD83800388FFF /* Frameworks */,
 				CD93B0E11FECD83800388FFF /* Resources */,
+				1777D2C3D1D6F4667704AAAB /* [CP] Embed Pods Frameworks */,
+				42B3691F3FAA516FFAF5A9EE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,6 +169,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1777D2C3D1D6F4667704AAAB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-链式编程&函数式编程/Pods-链式编程&函数式编程-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42B3691F3FAA516FFAF5A9EE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-链式编程&函数式编程/Pods-链式编程&函数式编程-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C31C6607FCE2C926AAF662E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-链式编程&函数式编程-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CD93B0DF1FECD83800388FFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -144,6 +227,7 @@
 			files = (
 				CD93B0EB1FECD83900388FFF /* ViewController.m in Sources */,
 				CD93B0F61FECD83900388FFF /* main.m in Sources */,
+				CD74BA921FECDDF100D0288E /* Person.m in Sources */,
 				CD93B0E81FECD83900388FFF /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +360,7 @@
 		};
 		CD93B0FA1FECD83900388FFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 890C9FFC3C59DCA07745C5BE /* Pods-链式编程&函数式编程.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,6 +375,7 @@
 		};
 		CD93B0FB1FECD83900388FFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 983B2E85891A0DB591B6322A /* Pods-链式编程&函数式编程.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
